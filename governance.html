@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Governance — CIN Uganda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: { emerald: { 50: '#f0fdf4', 600: '#16a34a', 700: '#15803d' } }
+        }
+      }
+    };
+  </script>
+  <style>html,body{height:100%}</style>
+</head>
+<body class="antialiased text-gray-800 bg-white">
+<input id="nav-toggle" type="checkbox" class="peer hidden" aria-hidden="true" />
+<header class="sticky top-0 z-50">
+  <div class="bg-white border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center space-x-3 flex-shrink-0">
+          <img src="./assets/CINLOGO.png" alt="CIN Uganda Logo" class="h-12 w-auto" />
+          <div class="hidden sm:block">
+            <span class="block text-emerald-700 font-bold text-sm leading-tight">CIN Uganda</span>
+            <span class="block text-gray-600 text-xs">Community Impact Network</span>
+          </div>
+        </a>
+        <div class="flex items-center gap-6">
+          <label for="nav-toggle" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-300" aria-label="Toggle menu">
+            <span class="sr-only">Toggle menu</span>
+            <svg class="w-6 h-6 transition-transform duration-200 ease-in-out" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path class="peer-checked:hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+              <path class="hidden peer-checked:block" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </label>
+          <nav role="navigation" aria-label="Utility navigation" class="hidden md:flex items-center divide-x divide-gray-300">
+            <a href="#" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-700 transition-colors duration-200 ease-in-out">About</a>
+            <a href="#" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-700 transition-colors duration-200 ease-in-out">News</a>
+            <a href="#" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-700 transition-colors duration-200 ease-in-out">Events</a>
+            <a href="#" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-emerald-700 transition-colors duration-200 ease-in-out">Contact Us</a>
+          </nav>
+          <button class="hidden md:inline-flex items-center justify-center p-2 text-gray-700 hover:text-emerald-700 focus:outline-none" aria-label="Search">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav role="navigation" aria-label="Main navigation" class="hidden md:block bg-emerald-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <ul class="flex flex-row items-center py-0 h-12 space-x-8 border-t md:border-t-0 border-emerald-600">
+        <li><a href="index.html" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Home</a></li>
+        <li class="relative group">
+          <a href="#" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Who We Are</a>
+          <ul class="hidden group-hover:block absolute left-0 bg-emerald-600 border border-emerald-500 rounded py-2 min-w-[200px] shadow-lg z-10">
+            <li><a href="vision-mission.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Vision &amp; Mission</a></li>
+            <li><a href="governance.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Governance</a></li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <a href="#" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Our Work</a>
+          <ul class="hidden group-hover:block absolute left-0 bg-emerald-600 border border-emerald-500 rounded py-2 min-w-[200px] shadow-lg z-10">
+            <li><a href="programs.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Programs</a></li>
+            <li><a href="projects.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Projects</a></li>
+            <li><a href="impact.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Impact</a></li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <a href="#" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Get Involved</a>
+          <ul class="hidden group-hover:block absolute left-0 bg-emerald-600 border border-emerald-500 rounded py-2 min-w-[220px] shadow-lg z-10">
+            <li><a href="partnerships.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Partnerships</a></li>
+            <li><a href="volunteer.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Volunteer</a></li>
+            <li><a href="support-our-work.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Support Our Work</a></li>
+          </ul>
+        </li>
+        <li class="relative group">
+          <a href="#" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Resources</a>
+          <ul class="hidden group-hover:block absolute left-0 bg-emerald-600 border border-emerald-500 rounded py-2 min-w-[200px] shadow-lg z-10">
+            <li><a href="reports.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">Reports</a></li>
+            <li><a href="news-updates.html" class="block px-4 py-2 text-xs font-medium text-white hover:bg-emerald-500 transition-colors duration-150 ease-in-out">News &amp; Updates</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="block py-4 text-xs font-bold text-white hover:text-emerald-100 uppercase tracking-wide transition-colors duration-200 ease-in-out">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="fixed inset-0 z-40 hidden peer-checked:block md:hidden">
+  <div class="fixed inset-0 bg-black bg-opacity-50"></div>
+  <div class="fixed top-0 right-0 w-80 h-full bg-emerald-900 shadow-lg overflow-y-auto">
+    <div class="p-4 border-b border-emerald-800">
+      <div class="relative">
+        <input type="text" placeholder="Search" class="w-full px-4 py-2 rounded bg-emerald-800 text-white placeholder-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+        <button class="absolute right-2 top-2 text-emerald-300 hover:text-white transition-colors" aria-label="Search">
+          <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav role="navigation" aria-label="Mobile navigation" class="p-4">
+      <ul class="space-y-1">
+        <li><a href="index.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Home</a></li>
+        <li><a href="who-we-are.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Who We Are</a></li>
+        <li><a href="vision-mission.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Vision &amp; Mission</a></li>
+        <li><a href="governance.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Governance</a></li>
+        <li><a href="our-work.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Our Work</a></li>
+        <li><a href="programs.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Programs</a></li>
+        <li><a href="projects.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Projects</a></li>
+        <li><a href="impact.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Impact</a></li>
+        <li><a href="get-involved.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Get Involved</a></li>
+        <li><a href="partnerships.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Partnerships</a></li>
+        <li><a href="volunteer.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Volunteer</a></li>
+        <li><a href="support-our-work.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Support Our Work</a></li>
+        <li><a href="resources.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Resources</a></li>
+        <li><a href="reports.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Reports</a></li>
+        <li><a href="news-updates.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">News &amp; Updates</a></li>
+        <li><a href="contact.html" class="block px-4 py-3 text-sm font-medium text-white hover:bg-emerald-800 rounded transition-colors duration-150">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <h1 class="text-4xl font-bold text-gray-900 mb-4">Governance</h1>
+  <p class="text-lg text-gray-600">Leadership and governance structure at CIN Uganda.</p>
+</main>
+</body>
+</html>
